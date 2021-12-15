@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".activities.ListGrades"
+    tools:deviceIds="wear">
+
+    <requestFocus />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:gravity="center"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="9sp"
+        android:id="@+id/stars"
+        tools:text="🥕🥕🥕"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_grades_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/list_grades"
+        android:divider="@color/blackOverlay"
+        android:dividerHeight="5dp"
+        android:paddingStart="27dp"
+        android:paddingEnd="27dp"
+        android:paddingTop="22dp"
+        android:paddingBottom="22dp"/>
+
+
+
+</androidx.wear.widget.BoxInsetLayout>

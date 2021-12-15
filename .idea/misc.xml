@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/rapha/AndroidStudioProjects/lvs/mobile/src/main/res/layout/activity_main.xml" value="0.2725430597771023" />
+        <entry key="..\:/Users/rapha/AndroidStudioProjects/lvs/wear/src/main/res/layout/activity_error.xml" value="1.1071428571428572" />
+        <entry key="..\:/Users/rapha/AndroidStudioProjects/lvs/wear/src/main/res/layout/activity_list_grades.xml" value="1.1071428571428572" />
+        <entry key="..\:/Users/rapha/AndroidStudioProjects/lvs/wear/src/main/res/layout/activity_list_homeworks.xml" value="0.75" />
+        <entry key="..\:/Users/rapha/AndroidStudioProjects/lvs/wear/src/main/res/layout/activity_main.xml" value="1.1071428571428572" />
+        <entry key="..\:/Users/rapha/AndroidStudioProjects/lvs/wear/src/main/res/layout/activity_one_homework.xml" value="0.8985714285714286" />
+        <entry key="..\:/Users/rapha/AndroidStudioProjects/lvs/wear/src/main/res/layout/activity_timetable.xml" value="1.1071428571428572" />
+        <entry key="..\:/Users/rapha/AndroidStudioProjects/lvs/wear/src/main/res/layout/activity_user_profile.xml" value="1.1071428571428572" />
+        <entry key="..\:/Users/rapha/AndroidStudioProjects/lvs/wear/src/main/res/layout/activity_waiting.xml" value="1.1071428571428572" />
+        <entry key="..\:/Users/rapha/AndroidStudioProjects/lvs/wear/src/main/res/layout/list_grades.xml" value="1.9276315789473684" />
+        <entry key="..\:/Users/rapha/AndroidStudioProjects/lvs/wear/src/main/res/layout/list_homeworks.xml" value="1.5" />
+        <entry key="..\:/Users/rapha/AndroidStudioProjects/lvs/wear/src/main/res/layout/list_item.xml" value="1.1071428571428572" />
+        <entry key="..\:/Users/rapha/AndroidStudioProjects/lvs/wear/src/main/res/mipmap-mdpi/ic_launcher.xml" value="0.167" />
+        <entry key="..\:/Users/rapha/AndroidStudioProjects/lvs/wear/src/main/res/mipmap-mdpi/ic_launcher_round.xml" value="0.167" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

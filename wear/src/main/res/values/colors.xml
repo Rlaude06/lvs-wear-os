@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bravo">#9ACD32</color>
+    <color name="felicitations">#d4af37</color>
+
+    <color name="blackOverlay">#66000000</color>
+
+
+    <color name="math_color">#EC7C26</color>
+    <color name="hi_ge_color">#CB2821</color>
+    <color name="lva_color">#354D73</color>
+    <color name="lvb_color">#B44C43</color>
+    <color name="svt_color">#F3DA0B</color>
+    <color name="fra_color">#CFD3CD</color>
+    <color name="snt_color">#AA7676</color>
+    <color name="ph_ch_color">#969992</color>
+    <color name="ses_color">#8F7057</color>
+    <color name="eps_color">#00BB2D</color>
+
+    <color name="close_date_due">#D60000</color>
+    <color name="grey">#5A5A5A</color>
+</resources>

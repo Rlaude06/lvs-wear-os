@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <requestFocus />
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:src="@mipmap/ic_launcher_round" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textAlignment="center"
+                android:textSize="@dimen/cardTextSize"/>
+            <TextView
+                android:id="@+id/welcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="@string/welcome"
+                android:textSize="@dimen/cardTextSize"
+                android:textAlignment="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/buttonProfile"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                app:cardCornerRadius="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="@dimen/cardIconMargin"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/profile" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/cardTextTop"
+                    android:text="@string/profile"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/cardTextSize" />
+            </androidx.cardview.widget.CardView>
+            <Space android:layout_width="match_parent" android:layout_height="@dimen/cardSpace" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/buttonHomeworks"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                app:cardCornerRadius="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="@dimen/cardIconMargin"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/homework" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/cardTextTop"
+                    android:text="@string/homeworks"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/cardTextSize" />
+            </androidx.cardview.widget.CardView>
+                <Space android:layout_width="match_parent" android:layout_height="@dimen/cardSpace" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/buttonGrades"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                app:cardCornerRadius="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="@dimen/cardIconMargin"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/grades" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/cardTextTop"
+                    android:text="@string/grades"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/cardTextSize" />
+            </androidx.cardview.widget.CardView>
+                <Space android:layout_width="match_parent" android:layout_height="@dimen/cardSpace" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/buttonTimetable"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                app:cardCornerRadius="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="@dimen/cardIconMargin"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/timetable" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/cardTextTop"
+                    android:text="@string/timetable"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/cardTextSize" />
+            </androidx.cardview.widget.CardView>
+            <Space android:layout_width="match_parent" android:layout_height="100dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.wear.widget.BoxInsetLayout>

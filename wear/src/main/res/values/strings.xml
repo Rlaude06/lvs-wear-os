@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">La Vie Scolaire</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello World!</string>
+    <string name="homeworks">Devoirs</string>
+
+    <string name="grades">Moyennes</string>
+    <string name="profile">Profil</string>
+    <string name="timetable">Emploi du Temps</string>
+    <string name="welcome">Bienvenue Raphaël !</string>
+    <string name="urlServer">https://fce2-2a01-e0a-a65-7770-7d8e-31f0-ca7-d0f3.ngrok.io</string>
+    <string name="math_code">MATHS</string>
+    <string name="hi_ge_code">HI-GE</string>
+    <string name="lva_code">AGL-A</string>
+    <string name="lvb_code">ALL-B</string>
+    <string name="svt_code">SVT</string>
+    <string name="fra_code">FRANC</string>
+    <string name="snt_code">SNT</string>
+    <string name="ph_ch_code">PH-CH</string>
+    <string name="ses_code">SES</string>
+    <string name="eps_code">EPS</string>
+
+    <string name="math_text">Mathématiques</string>
+    <string name="hi_ge_text">Histoire-Géo</string>
+    <string name="lva_text">Anglais</string>
+    <string name="lvb_text">Allemand</string>
+    <string name="svt_text">SVT</string>
+    <string name="fra_text">Français</string>
+    <string name="snt_text">SNT</string>
+    <string name="ph_ch_text">Physique-Chimie</string>
+    <string name="ses_text">Sciences économiques &amp; sociales</string>
+    <string name="eps_text">EPS</string>
+
+</resources>
